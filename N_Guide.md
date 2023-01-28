@@ -1,10 +1,11 @@
 #  T.KAZ3-1's Logic Guide to [N]egation
 
-*Written by: T.KAZ3-1#2745*
+*Negation: the clue indiates the difference in the number of mines between colored and uncolored cells.*
 
+*Written by: T.KAZ3-1#2745*
 *Draft 1: 28 Jan 2023*
 
-*Negation: the clue indiates the difference in the number of mines between colored and uncolored cells.*
+Spoiler alert: Contains solutions to some puzzles.
 
 **Reminder: If you are stuck, always start by clicking on every clue first!**
 
