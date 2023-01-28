@@ -63,7 +63,7 @@ Similarly, let's look at [A6,C8]. Again, consecutive 1s in A7 and B7, so parity 
 3. The group difference, [C6,C8], is thus even.
 4. C6 must be the mine!
 
-![ezgif-3-5bcb430375.gif](attachment:62df69b3-6e81-4d60-8178-06e71cce9e58.gif)
+![Example 2.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/Net%20zero_1/ezgif-3-5bcb430375.gif)
 
 #### *Warning on even group difference*
 While we do know the group difference is even, we don't know if the difference is 0 or 2! It is often a trap you will run into.
@@ -78,7 +78,7 @@ The power of parity checks is they often infer other neighboring groups as well.
 5. The group difference, [A4, B5], is thus up two.
 6. B4, A5 must be the mines, and B5 is safe!
 
-![ezgif-3-b379f5e4d8.gif](attachment:d6fdc98c-5152-42a5-ab5d-bdda6e88c410.gif)
+![Example 3.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/Parity%2B/ezgif-3-b379f5e4d8.gif)
 
 ### Example 4: Corner
 
@@ -89,7 +89,7 @@ Let's see [A6,C8]:
 4. B8 is 0 $\implies$ [A7,C8] is net zero $\implies$ [C7,C8] is net zero.
 5. The group difference, C6, is thus up one, i.e. the mine!
 
-![ezgif-3-1fc454fa78.gif](attachment:dd845e59-afdc-420a-a89c-37438e187951.gif)
+![Example 4.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/4_Corner/ezgif-3-1fc454fa78.gif)
 
 ### Example 5 - Color difference
 Similar to Example 4, this time we add in coloring considerations. Let's see [A2,C4]:
@@ -101,7 +101,7 @@ Similar to Example 4, this time we add in coloring considerations. Let's see [A2
 6. Together with B3 is 0 $\implies$ [A2,C5] is net zero, we know the group difference [C3,C4] is **light** up one.
 7. C4 is the mine and C3 is safe!
 
-![ezgif-3-5e82f7fec8.gif](attachment:f75fbe9d-871f-42a8-9071-0232bfd6ba38.gif)
+![Example 5.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/5_Color%20diff/ezgif-3-5e82f7fec8.gif)
 
 ## End game counting
 A lot of [N] puzzles require looking at the remaining mine count. It goes along with parity checks.
@@ -113,7 +113,7 @@ Let's look at [F5,H7], we have 7 remaining mines to fill in 8 blank spaces:
 
 We can then complete the puzzle by considering [E3,G5] and the 1 in F4, again by end game counting. Do you see that [E5,F5] is net zero?
 
-![ezgif-3-5cd4933e74.gif](attachment:7ccc085c-2848-45b3-a60a-844020c6e1c9.gif)
+![End game.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/End%20game/ezgif-3-5cd4933e74.gif)
 
 
 ```python
