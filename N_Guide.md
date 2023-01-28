@@ -52,8 +52,8 @@ Let's look at [F6,H8]. We see consecutive clues in G7 and H7. So a parity check 
 2. G7 is 0 $\implies$ [F6,H8] is even.
 3. The group difference, [F6,F8], is thus odd.
 4. F6 must be the mine!
-[
-[[![N_Basic.gif]([attachment:cb97fc05-118e-4a75-8da6-6cd1196bb96c.gif](https://github.com/tonyiptony/14MV/blob/main/gifs/Parity/N_Basic.gif))](https://github.com/tonyiptony/14MV/blob/main/gifs/Parity/N_Basic.gif)](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/Parity/N_Basic.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/Parity/N_Basic.gif))
+
+![Example 1.gif](https://raw.githubusercontent.com/tonyiptony/14MV/main/gifs/Parity/N_Basic.gif)
 
 ### Example 2: Odd and odd
 
